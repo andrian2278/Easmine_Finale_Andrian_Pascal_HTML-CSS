@@ -8,11 +8,11 @@ https://git-scm.com/
  ##### Method 1
  Downland Zip
 ##### Method 2
- Clone HTTPS: https://github.com/andrian2278/Easmine_Finale_Andrian_Pascal_SPA.git
+ Clone HTTPS: https://github.com/andrian2278/Easmine_Finale_Andrian_Pascal_HTML-CSS.git
 ##### Method 3
- Clone SSH: git@github.com:andrian2278/Easmine_Finale_Andrian_Pascal_SPA.git
+ Clone SSH: git@github.com:andrian2278/Easmine_Finale_Andrian_Pascal_HTML-CSS.git
 ##### Method 4
- Clone GitHub CLI: gh repo clone andrian2278/Easmine_Finale_Andrian_Pascal_SPA
+ Clone GitHub CLI: gh repo clone andrian2278/Easmine_Finale_Andrian_Pascal_HTML-CSS
  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Step 2
