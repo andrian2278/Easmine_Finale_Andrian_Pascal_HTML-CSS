@@ -20,7 +20,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid navbar-container">
       <div class="burgermenu-row-reverse">
-        <img class="logo-navbar" src="Assets/img/img/logo.png" alt="NOME_PROGECT">
+        <img class="logo-navbar" src="assets/img/logo.png" alt="Imagine Turing Club">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,198 +46,222 @@
             <a class="nav-link active" aria-current="page" href="#">Registrazione</a>
           </li>
         </ul>
-
-
-
-
       </div>
-
-
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+        <div class="input-group input-group-lg">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Cerca</span>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
       </ul>
-
     </div>
   </nav>
 
-
+  
+  
   <div class="container-fluid">
     <div class="card mb-3 card-box">
-      <button type="button" class="btn btn-light" aria-current="page" href="dettaligo.html">
-        <div class=" row g-0">
-        <div class="col-md-4">
-          
-          <img src="Assets/img/img/kronaction.jpg" class="img-fluid rounded-start" alt="NOME_IMG">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h2 class="card-title">Pordenone</h2>
-            <div class="row">
-              <Div class="col-md-5">
-                <h5>Tema:Aquatico </h5>
-              </Div>
-              <div class="col-md-5">
-                <h5>Tipo di attrazioni: Avventura </h5>
+      <button type="button" class="btn btn-light" value="s.id" routerLink="/dettaglio/{{s.id}}">
+        <div class="row g-0">
+          <div class="col-md-4">
+
+            <img src="assets/img/image_Roma.jpg" class="img-fluid rounded-start" alt="Una imagine di Colosseo Roma">
+
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">Roma</h2>
+
+              <div class="row">
+                <div class="col-md-6 txt_h5">
+                  <h5>Attrazioni: Colosselo</h5> 
+                  <h5>Popularita ultima ora: Medie </h5> 
+                </div>
+
+                  <div class="col-md-6 txt_h5">
+                    <h5>Interesse: Storico,Paesaggistico </h5>
+                    <h5>Persone presente: Minim </h5>
+                  </div>
               </div>
-              <div class="col-md-5">
-                <h5>Localita: Pescheria di Carta </h5>
+              <div class="row justify-content-center">
+                <div class="col-md-2 "><h3>Status</h3></div>
               </div>
-              <div class="col-md-5">
-                <h5>Persone: <i style="color: green;width: 60px;height: 60px;" class="bi bi-speedometer2"></i> </h5>
+              <div class="row">
+                <div class="col-md-6  txt_h5">
+                  <h5>Ora di apertura: 09:02 </h5>
+                </div>
+                <div class="col-md-6  txt_h5">
+                  <h5>Ora di Chiusura: 18:00 </h5>
+                </div>
               </div>
             </div>
-
-
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
+      </button>
     </div>
-    </button>
-  </div>
 
-  <div class="card mb-3 card-box">
-    <button type="button" class="btn btn-light" herf="/dettaglio/1">
-      <div class="row g-0">
-        <div class="col-md-4">
 
-          <img src="Assets/img/img/sanbe7.jpg" class="img-fluid rounded-start" alt="NOME_IMG">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h2 class="card-title">Cartaland</h2>
-            <div class="row">
-              <Div class="col-md-5">
-                <h5>Tema:Aquatico </h5>
-              </Div>
-              <div class="col-md-5">
-                <h5>Tipo di attrazioni: Estreme </h5>
+    <!-- second CARD -->
+    
+
+
+    <div class="card mb-3 card-box">
+      <button type="button" class="btn btn-light" >
+        <div class="row g-0">
+          <div class="col-md-4">
+
+            <img src="assets/img/img_Piazza_San_Marco_2019.jpg" class="img-fluid rounded-start" alt="Una imagine di Venezia">
+
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">Venezia</h2>
+
+              <div class="row">
+                <div class="col-md-6 txt_h5">
+                  <h5>Attrazioni: Pizza San Marco</h5> 
+                  <h5>Popularita ultima ora: Minima </h5> 
+                </div>
+
+                  <div class="col-md-6 txt_h5">
+                    <h5>Interesse: Storico,Paesaggistico </h5>
+                    <h5>Persone presente: Minim </h5>
+                  </div>
               </div>
-              <div class="col-md-5">
-                <h5>Localita: Simone </h5>
+              <div class="row justify-content-center">
+                <div class="col-md-2 "><h3>Status</h3>
+                  <div class="col-md-2 alert"><h3>Chiuso</h3>
+                </div>
               </div>
-              <div class="col-md-5">
-                <h5>Persone: <i style="color: red; width: 60px;height: 60px;" class="bi bi-speedometer2"></i> </h5>
-              </div>
+              
             </div>
-
-
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-      </div>
-    </button>
-  </div>
+      </button>
+    </div>
 
 
 
+    <div class="card mb-3 card-box">
+      <button type="button" class="btn btn-light" >
+        <div class="row g-0">
+          <div class="col-md-4">
 
+            <img src="assets/img/uffizi-firenze.webp" class="img-fluid rounded-start" alt="Una imagine di Firenze">
 
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">Firenze</h2>
 
-  <div class="card mb-3 card-box">
-    <button type="button" class="btn btn-light" herf="/dettaglio/1">
-      <div class="row g-0">
-        <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-6 txt_h5">
+                  <h5>Attrazioni: Galleria degli Uffizzi </h5> 
+                  <h5>Popularita ultima ora: Minima </h5> 
+                </div>
 
-          <img src="Assets/img/img/kronaction.jpg" class="img-fluid rounded-start" alt="NOME_IMG">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h2 class="card-title">Cartaland</h2>
-            <div class="row">
-              <Div class="col-md-5">
-                <h5>Tema:Aquatico </h5>
-              </Div>
-              <div class="col-md-5">
-                <h5>Tipo di attrazioni: Estreme </h5>
+                  <div class="col-md-6 txt_h5">
+                    <h5>Interesse: Storico,Paesaggistico </h5>
+                    <h5>Persone presente: Minim </h5>
+                  </div>
               </div>
-              <div class="col-md-5">
-                <h5>Localita: Pescheria di Carta </h5>
+              <div class="row justify-content-center">
+                <div class="col-md-2 "><h3>Status</h3></div>
               </div>
-              <div class="col-md-5">
-                <h5>Persone: <i style="color: green;width: 60px;height: 60px;" class="bi bi-speedometer2"></i> </h5>
+              <div class="row">
+                <div class="col-md-6  txt_h5">
+                  <h5>Ora di apertura: 10:02 </h5>
+                </div>
+                <div class="col-md-6  txt_h5">
+                  <h5>Ora di Chiusura: 19:00 </h5>
+                </div>
               </div>
             </div>
-
-
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-      </div>
-    </button>
-  </div>
+      </button>
+    </div>
 
 
+    <div class="card mb-3 card-box">
+      <button type="button" class="btn btn-light" >
+        <div class="row g-0">
+          <div class="col-md-4">
 
-  <div class="card mb-3 card-box">
-    <button type="button" class="btn btn-light" value="s.id" herf="dettaligo.html">
-      <div class="row g-0">
-        <div class="col-md-4">
+            <img src="assets/img/img_varie_Cinque Terre.jpg" class="img-fluid rounded-start" alt="Una imagine di Varie">
 
-          <img src="Assets/img/img/kronaction.jpg" class="img-fluid rounded-start" alt="NOME_IMG">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h2 class="card-title">Mirabollandia</h2>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">Varie</h2>
 
-            <div class="row">
-              <Div class="col-md-5">
-                <h5>Tema:Aquatico </h5>
-              </Div>
-              <div class="col-md-5">
-                <h5>Tipo di attrazioni: Per Bambini,Moderate </h5>
+              <div class="row">
+                <div class="col-md-6 txt_h5">
+                  <h5>Attrazioni:Cinque Terre</h5> 
+                  <h5>Popularita ultima ora: Minima </h5> 
+                </div>
+
+                  <div class="col-md-6 txt_h5">
+                    <h5>Interesse: Storico,Paesaggistico </h5>
+                    <h5>Persone presente: Minim </h5>
+                  </div>
               </div>
-              <div class="col-md-5">
-                <h5>Localita: Cotenna </h5>
+              <div class="row justify-content-center">
+                <div class="col-md-2 "><h3>Status</h3></div>
               </div>
-              <div class="col-md-5">
-                <h5>Persone: <i style="color: green;width: 60px;height: 60px;" class="bi bi-speedometer2"></i> </h5>
+              <div class="row">
+                <div class="col-md-6  txt_h5">
+                  <h5>Ora di apertura: 10:02 </h5>
+                </div>
+                <div class="col-md-6  txt_h5">
+                  <h5>Ora di Chiusura: 19:00 </h5>
+                </div>
               </div>
             </div>
-
-
-
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-      </div>
-    </button>
-  </div>
-
-  <div class="card mb-3 card-box">
-    <a type="button" class="btn btn-light" herf="">
-      <div class="row g-0">
-        <div class="col-md-4">
-
-          <img src="Assets/img/img/kronaction.jpg" class="img-fluid rounded-start" alt="NOME_IMG">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h2 class="card-title">Fuori di Testa</h2>
+      </button>
+    </div>
 
 
-            <div class="row">
-              <Div class="col-md-5">
-                <h5>Tema:Alpino </h5>
-              </Div>
-              <div class="col-md-5">
-                <h5>Tipo di attrazioni: Estreme </h5>
+    <div class="card mb-3 card-box">
+      <button type="button" class="btn btn-light" >
+        <div class="row g-0">
+          <div class="col-md-4">
+
+            <img src="assets/img/img_varie_Costiera Amalfitana.jpg" class="img-fluid rounded-start" alt="Una imagine di Varie">
+
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">Varie</h2>
+
+              <div class="row">
+                <div class="col-md-6 txt_h5">
+                  <h5>Attrazioni:Costiera Amalfitana</h5> 
+                  <h5>Popularita ultima ora: Minima </h5> 
+                </div>
+
+                  <div class="col-md-6 txt_h5">
+                    <h5>Interesse: Storico,Paesaggistico </h5>
+                    <h5>Persone presente: Minim </h5>
+                  </div>
               </div>
-              <div class="col-md-5">
-                <h5>Localita: Tonino </h5>
+              <div class="row justify-content-center">
+                <div class="col-md-2 "><h3>Status</h3></div>
               </div>
-              <div class="col-md-5">
-                <h5>Persone: <i style="color: green;width: 60px;height: 60px;" class="bi bi-speedometer2"></i> </h5>
+              <div class="row">
+                <div class="col-md-6  txt_h5">
+                  <h5>Ora di apertura: 10:02 </h5>
+                </div>
+                <div class="col-md-6  txt_h5">
+                  <h5>Ora di Chiusura: 19:00 </h5>
+                </div>
               </div>
             </div>
-
-
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-      </div>
-    </a>
-  </div>
-  </div>
+      </button>
+    </div>
 
 
 
@@ -245,7 +269,7 @@
 
 
 
-
+</div>
 
 
 

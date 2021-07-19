@@ -184,3 +184,15 @@ li {
     margin: 2%;
   }
 }
+
+.alert{
+  color:red;
+  font-size: 30px;
+  font-style:inherit;
+  
+}
+
+.txt_h5{
+  margin-top: 20px;
+}
+.alert{color: red;}
